@@ -1,6 +1,7 @@
 package org.launchcode.models.data;
 
 import org.launchcode.models.*;
+import org.launchcode.models.forms.JobForm;
 
 import java.util.ArrayList;
 
@@ -29,6 +30,7 @@ public class JobData {
         }
         return instance;
     }
+
 
     public Job findById(int id) {
         for (Job job : jobs) {
